@@ -1,0 +1,58 @@
+.equipo-fondo{
+	text-align: center;
+	padding-top: 3%;
+	background-image: url(../img/textureteam.png);
+	width: 100%;
+	height: 224%;
+}
+
+.title-equipo{
+	padding: 3% 0% 0%;
+	text-align: center;
+  font-family: "Raleway-Regular";
+}
+
+.subtitle-equipo{
+  text-align: center;
+  font-family: "Raleway-Regular";
+}
+
+.intro-equipo{
+  text-align: center;
+  font-family: "Raleway-Regular";
+  padding: 1% 6% 2%;
+}
+
+.overlay{                             
+  width: 70%;
+  min-height: 223px;
+  top: 0;
+  left: 15%;
+  position: absolute;
+  -webkit-transition: 0.2s;
+  opacity: 0.8;
+}
+
+
+
+.icon-color{
+  position: absolute;
+  visibility: hidden;
+  top: 99px;
+  right: 45%;
+}
+
+.overlay:hover{
+  background-color: #000000;
+}
+
+.overlay:hover .icon-color{
+  visibility: visible;
+}
+
+.icon-color:hover{
+  color: red;
+  
+
+}
+

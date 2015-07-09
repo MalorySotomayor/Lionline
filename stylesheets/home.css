@@ -1,0 +1,400 @@
+* {
+  margin:0;
+  padding:0;
+}
+html{
+  height: 100%;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff;
+  height: 100%;
+}
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.landing.hidden-xs {
+  height: 100%;
+}
+/*-------------------------------------------------menu--------------------------------------------------------------*/
+
+@font-face {
+  font-family: Raleway-Regular;
+  src: url(../fonts/bootstrap/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: saunder;
+  src: url(../fonts/bootstrap/saunder.ttf);
+}
+
+ header {
+  width:100%;
+  display: block;
+  position: fixed;
+  z-index: 1000;
+}
+ 
+header nav {
+  width: 100%;
+  background: #454541;
+}
+ 
+.name-lion{
+  float: right;
+  position: relative;
+  display: inline-flex;
+  top: 10px;
+  font-family: "saunder";
+  font-size: 35px;
+  color: white;
+  margin-right: 446px;
+}
+
+.lionicon-menu{
+  width: 100px;
+}
+
+.menu_bar {
+  display:none;
+}
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px 10px 10px;
+  background-color: #454541;
+  border: black;
+  border-radius: 4px;
+}
+
+.navbar-header .navbar-toggle .icon-bar {
+  background-color: #FFF;
+}
+
+
+
+header nav ul {
+  overflow:hidden;
+  list-style:none;
+  
+}
+
+nav{
+  left: 0px;
+  top: 43px;
+}
+ 
+ul li {
+  float: left;
+  height: 60px;
+}
+ 
+header nav ul li a {
+  color: white;
+  padding: 17px;
+  font-size: 18px;
+  display: block;
+  text-decoration: none;
+  font-family: "Raleway-Regular";
+}
+header nav ul li span {
+  margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+  background: white;
+  text-decoration: none;
+  color: black;
+ /* font-size: 19.5px;*/
+}
+section {
+  padding:20px;
+}
+ 
+@media screen and (max-width:800px ) {
+  header nav {
+    width:80%;
+    height:100%;
+    left:-100%;
+    margin:0;
+    position: fixed;
+  }
+ 
+  header nav ul li {
+    display:block;
+    float: none;
+    border-bottom:1px solid rgba(255,255,255, .3);
+  }
+}
+
+.navbar-brand{
+  padding: 7.5px 15px 0px;
+}
+/*-------------------------------------------------SLIDER--------------------------------------------------------------*/
+.carousel{
+  top: 42.5px;
+}
+
+ .carousel-inner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.frase{
+  font-family: "Lato-Light";
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.ptp-4{
+  top: 0%;
+  position: absolute;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-contac{
+  height: 50%;
+  width: 50%;  
+}
+
+.slide-contac-dos{
+  height: 50%;
+  width: 50%;
+}
+
+.btn-contactanos{
+  background-color: orange;
+  width: 145px;
+  height: 48px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15%;
+  border-radius: 8px;
+}
+
+.text-contac{
+  color: white;
+  margin-top: 20%;
+  font-family: "Raleway-Regular";
+}
+
+.tam-type{
+  font-size: 23px;
+}
+
+.tam-typedos{
+  font-size: 23px;
+}
+
+
+.text-contacdos{
+  color: white;
+  font-family: "Raleway-Regular";
+  margin-top: 8%;
+}
+
+
+.type-contac{
+  font-family: "Raleway-Regular";
+  padding: 15px 0px 5px;
+  margin: 0px;
+  color: white;
+}
+/*-------------------------------------------------LANDING--------------------------------------------------------------*/
+.servicios{
+  margin-top: 40px;
+  padding-top: 30px;
+}
+
+.grid-servicios{
+  margin: 4% 8% 0% 8%;
+}
+.title-servicios{
+  text-align: center;
+  font-family: "Raleway-Regular";
+  margin:0px 0px 20px 0px;
+}
+
+.seo{
+  width: 100%;
+}
+
+.diseño{
+   width: 100%;
+}
+
+.social{
+   width: 100%;
+}
+
+.public{
+  width: 100%;
+}
+
+.analitic{
+  width: 100%;
+}
+
+.coles-padding{
+  padding: 0px;
+  text-align: center;
+}
+
+.title-servis{
+  text-align: center;
+  margin: 10px 0px 22px 0px;
+}
+
+.title-servis-digital{
+  margin: 30px 0px 30px 0px;
+}
+
+
+.descrip-servis{
+  visibility: hidden;
+  position: relative;
+  color: white;
+  top: 65px;
+}
+
+.descrip-servisdos{
+  visibility: hidden;
+  position: relative;
+  color: white;
+  top: 60px;
+}
+
+.descrip-servistres{
+  visibility: hidden;
+  position: relative;
+  color: white;
+  top: 60px;
+}
+
+.descrip-serviscuatro{
+  visibility: hidden;
+  position: relative;
+  color: white;
+  top: 60px;
+}
+
+
+.descrip-serviscinco{
+  visibility: hidden;
+  position: relative;
+  color: white;
+  top: 30px;
+}
+
+
+.overlay{
+  width: 95.3%;
+  min-height: 76%;
+  top: 58px;
+  left: 0px;
+  position: absolute;
+  -webkit-transition: 0.2s;
+  cursor: pointer;
+   opacity: 0.8;
+}
+
+.overlayend{
+  width: 100%;
+  min-height: 68%;
+  top: 58px;
+  left: 0px;
+  position: absolute;
+  -webkit-transition: 0.2s;
+  cursor: pointer;
+   opacity: 0.8;
+}
+
+.analitik{
+  top: 32%;
+}
+
+.info-frase{
+  margin: auto;
+  text-align: center;
+}
+
+
+.overlay:hover{
+  background-color: #000000;
+}
+
+.overlayend:hover{
+  background-color: #000000;
+}
+
+.overlay:hover .info-frase h4{
+  visibility: visible;
+}
+
+.overlayend:hover .info-frase h4{
+  visibility: visible;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.info-frase h4:hover{
+  color: yellow;
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+}
+
+a:-webkit-any-link{
+    text-decoration:none;
+    text-transform: none;
+}
+
+/*-------------------------RESPONSIVE DESING--------------------------*/
+
+@media screen and (max-width:800px ) {
+      .container h1 {
+      position: relative;
+      font-size: 75px;
+      top: 90px;
+      color: rgba(252, 250, 250, 1);
+      text-align: center;
+      font-family: 'Lobster', cursive;
+      }
+      .container h3 {
+      position: relative;
+      top: 130px;
+      color: rgba(252, 250, 250, 1);
+      text-align: center;
+      font-size: 45px;
+      font-family: 'Lobster', cursive;
+      }
+      button.ms {
+      position: relative;
+      padding: 20px 50px 20px 50px;
+      border-radius: 10px;
+      top: 200px;
+      left: 18%;
+      background-color: rgba(137, 135, 135, 0.35);
+      border: 1px #E8E1E1 solid;
+      color: white;
+      -webkit-box-shadow: 0 0 0px #333;
+      -moz-box-shadow: 0 0 0px #333;
+      -ms-box-shadow: 0 0 10px #333;
+      -o-box-shadow: 0 0 10px #333;
+      box-shadow: 0 0 75px rgb(226, 107, 148);
+    }
+    .col-md-5 {
+      width: 100%;
+      margin-top: 0px;
+    }
+  } /*final de media*/
